@@ -1,0 +1,11 @@
+.wrapperMain {
+  height: 75vh;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  /* background-color: #dfb886; */
+}
+
+.boxPhoto {
+  height: 500px;
+}

@@ -1,0 +1,39 @@
+/* Navbar Container styling */
+.navbarContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 130px;
+  background-color: burlywood;
+  font-family: "Montserrat", sans-serif;
+}
+.bungkusBox {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 90%;
+}
+/* Box Dalam */
+.boxDalamKiri {
+  display: flex;
+  margin-right: auto;
+  border: 2px solid magenta;
+}
+
+/* Brand Name dan Logo */
+.brandName {
+  height: fit-content;
+}
+
+/* Navbar right menu styling */
+.navbarMenu {
+  display: flex;
+  font-weight: bolder;
+  margin-right: auto;
+  justify-content: space-between;
+  width: 30%;
+}
+
+.Cart {
+  font-weight: bolder;
+}
