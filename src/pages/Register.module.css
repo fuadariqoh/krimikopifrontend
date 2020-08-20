@@ -1,0 +1,34 @@
+.Container {
+  display: flex;
+  height: 90vh;
+  font-family: "Montserrat", sans-serif;
+
+  width: 100%;
+}
+.boxFoto {
+  width: 40%;
+}
+.boxRegister {
+  width: 60%;
+}
+.alignForm {
+  justify-content: center;
+  margin-top: 5em;
+}
+.flexRegisterItem {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+@media only screen and (max-width: 980px) {
+  .boxFoto {
+    display: none;
+  }
+  .boxRegister {
+    width: 100%;
+  }
+  .Container {
+    height: 79vh;
+  }
+}

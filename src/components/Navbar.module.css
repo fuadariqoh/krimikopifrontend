@@ -17,7 +17,7 @@
 .boxDalamKiri {
   display: flex;
   margin-right: auto;
-  border: 2px solid magenta;
+  font-weight: bolder;
 }
 
 /* Brand Name dan Logo */

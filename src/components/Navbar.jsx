@@ -8,7 +8,6 @@ class Navbar extends Component {
       <div className={styles.navbarContainer}>
         <div className={styles.bungkusBox}>
           <div className={styles.boxDalamKiri}>
-            <div>LOGO</div>
             <div className={styles.brandName}>Krimi Kopi </div>
           </div>
           <div className={styles.navbarMenu}>

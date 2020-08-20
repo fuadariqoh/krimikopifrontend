@@ -1,11 +1,141 @@
+h3 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bolder;
+}
+h4 {
+  font-family: "Montserrat", sans-serif;
+}
+p {
+  font-family: "Montserrat", sans-serif;
+}
+
 .wrapperMain {
   height: 75vh;
   display: flex;
   justify-content: center;
   align-content: center;
-  /* background-color: #dfb886; */
+  background-color: wheat;
+  font-family: "Montserrat", sans-serif;
 }
 
 .boxPhoto {
   height: 500px;
+  border-radius: 5px;
+  margin-left: 1em;
+}
+.imageKrimi {
+  border-radius: 10px;
+}
+.btnHome {
+  border-radius: 5px;
+  border: none;
+  width: 20em;
+  height: 3em;
+  opacity: 0.6;
+  transition: 0.3s;
+  background-color: brown;
+  color: white;
+}
+.btnHome:hover {
+  background-color: white;
+  color: black;
+  opacity: 1;
+}
+.description {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 5em;
+  margin-bottom: 1em;
+}
+.boxDeskripsi {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+}
+.menu1 {
+  height: 50vh;
+  margin-top: 5em;
+  background-color: slategray;
+  display: flex;
+  flex-direction: column;
+}
+.menu1content {
+  width: 50%;
+  height: 100%;
+}
+.menu2 {
+  height: 50vh;
+  background-color: lightgray;
+  display: flex;
+}
+.menu1item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 0;
+}
+.menu1foto {
+  height: 50vh;
+  width: 50%;
+}
+.emailUpdate {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 30vh;
+  width: 100%;
+  justify-content: center;
+}
+.btnSignEmail {
+  background-color: skyblue;
+  color: whitesmoke;
+  border: none;
+}
+.photoFlex {
+  width: 50%;
+  height: 100%;
+}
+
+@media only screen and (max-width: 980px) {
+  .wrapperMain {
+    height: 100vh;
+  }
+
+  .boxDeskripsi {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 50%;
+  }
+  .menu2 {
+    display: flex;
+    flex-direction: column-reverse;
+    height: 60vh;
+  }
+  .photoFlex {
+    width: 100%;
+    height: 50%;
+  }
+  .menu1 {
+    display: flex;
+    flex-direction: row;
+    height: 60vh;
+    background-color: slategray;
+  }
+  .menu1content {
+    width: 100%;
+    height: 50%;
+  }
+
+  .menu1item {
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+  }
 }
